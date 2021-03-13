@@ -1,0 +1,203 @@
+html, body{
+
+    padding:0px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
+
+
+
+
+nav{
+
+    display: flex;
+    background-color: greenyellow;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: white;
+}
+
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../Desarrollo_web-c9/images/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    float: inline-end;
+    
+}
+
+.product{
+    padding: 15 15 15 15px;
+    margin-bottom:  200;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.product .content{
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 0 2px black;
+    width: 75%;
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: #7acc2d;
+    width: 100%;
+    padding: 15px;
+    font-size: 12px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #5e9e22;
+
+}
+
+/* beneficios */
+.beneficios{
+    padding: 10%;
+    display: flex;
+
+}
+
+.beneficio{
+    text-align: center;
+    padding: 20%;
+}
+
+.beneficio img{
+    max-height: 100px;
+
+}
+
+.text_beneficio{
+    text-align: justify;
+}
+
+/* Mentions */
+.mentions{
+    display: flex;
+    padding: 5%;
+  }
+  .mention img{
+    width: 100%;
+  }
+  div.mention_title{
+    text-align: center;
+  }
+  .mention{
+    padding: 10px;
+  }
+  .content_mention{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+  }
+  .mention .text{
+    padding: 10px;
+  }
+
+  /*------------------------------------------ Ventas */
+
+  .container{
+      background-color: white;
+      box-shadow: 4px 4px 4px 4px gray;
+      border: 1px black;
+      padding: 10px;
+      margin: 100px;
+      display: flex;
+     
+      justify-content: center;
+  }
+
+
+
+  .col-4{
+      padding: 50px;
+      width: 100%;
+  }
+
+  .modulo_pago_images{
+      max-width: 150px;
+  }
+  
+.col-8{
+    width: 100%;
+    padding: 50px;
+}
+
+  .data{
+      margin-top: 10px;
+      width: 100%;
+      height: 25px;
+      border-radius: 2px;
+      border: 1px solid;
+      box-sizing: border-box;
+  }
+  
+ 
+
+    
+    
+
+   
+
+
+  /* ------------------------------------------- Footer */
+  footer{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 12px;
+    background-color: black;
+    padding: 15px 15px;
+    color: white;
+    
+  
+  }
+
+ .option a{
+     color: green;
+ }
